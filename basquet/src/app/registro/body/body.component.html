@@ -1,0 +1,90 @@
+<div class="container-fluid">
+  <form class="row g-3">
+    <div class="col-md-5">
+      <label for="validationDefault01" class="form-label fw-semibold">Nombre(s) :</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationDefault01"
+        required
+      />
+    </div>
+    <div class="col-md-5">
+      <label for="validationDefault02" class="form-label fw-semibold">Apellidos :</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationDefault02"
+        required
+      />
+    </div>
+
+    <div class="col-md-2">
+      <label for="validationDefault03" class="form-label fw-semibold"
+        >Carnet de identidad :</label
+      >
+      <input
+        type="number"
+        class="form-control"
+        id="validationDefault03"
+        required
+      />
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefaultUsername" class="form-label fw-semibold">Correo electronico :</label>
+      <div class="input-group">
+        <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        <input
+          type="email"
+          class="form-control"
+          id="validationDefaultUsername"
+          placeholder="name@example.com"
+          aria-describedby="inputGroupPrepend2"
+          required
+        />
+      </div>
+    </div>
+    <div class="col-md-2">
+      <label for="validationDefault05" class="form-label fw-semibold">País :</label>
+      <input
+        type="text"
+        class="form-control"
+        id="validationDefault05"
+        required
+      />
+    </div>
+    <div class="col-md-4">
+      <label for="validationDefault01" class="form-label fw-semibold"
+        >Nombre del equipo :</label
+      >
+      <input
+        type="text"
+        class="form-control"
+        id="validationDefault01"
+        required
+      />
+    </div>
+    <div class="col-md-2">
+      <label for="validationDefault04" class="form-label fw-semibold">Categoria</label>
+      <select class="form-select" id="validationDefault04" required>
+        <option selected disabled value="">Categoria</option>
+        <option>+35</option>
+        <option>+40</option>
+        <option>+45</option>
+      </select>
+    </div>
+    <div class="col-md-6">
+    <label for="validationDefault05" class="form-label fw-semibold">Adjuntar comprobante de pago :</label>
+      <input
+        type="file"
+        class="form-control"
+        aria-label="file example"
+        required
+      />
+    </div>
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button class="btn btn-dark" type="submit">Enviar</button>
+      </div>
+  </form>
+</div>
