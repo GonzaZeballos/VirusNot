@@ -1,0 +1,10 @@
+.container-fluid{
+    padding: 10px;
+    padding-top: 15px;
+    background-color: #FEE4C2;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.h6{
+    font-size: 2vw;
+}

@@ -17,6 +17,16 @@ import { RegistroEscenarioComponent } from './registro-escenario/registro-escena
 import { SolicitudesPreInscripcionComponent } from './solicitudes-pre-inscripcion/solicitudes-pre-inscripcion.component';
 import { LoginComponent } from './login/login.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { BodyREComponent } from './registro-escenario/body-re/body-re.component';
+import { CabeceraREComponent } from './registro-escenario/cabecera-re/cabecera-re.component';
+import { FooterREComponent } from './registro-escenario/footer-re/footer-re.component';
+import { HeaderREComponent } from './registro-escenario/header-re/header-re.component';
+import { CabeceraPIComponent } from './solicitudes-pre-inscripcion/cabecera-pi/cabecera-pi.component';
+import { HeaderPIComponent } from './solicitudes-pre-inscripcion/header-pi/header-pi.component';
+import { BodyPIComponent } from './solicitudes-pre-inscripcion/body-pi/body-pi.component';
+import { FooterPIComponent } from './solicitudes-pre-inscripcion/footer-pi/footer-pi.component';
+import { HeaderINComponent } from './inicio/header-in/header-in.component';
+import { CabeceraINComponent } from './inicio/cabecera-in/cabecera-in.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +44,17 @@ import { InicioComponent } from './inicio/inicio.component';
     RegistroEscenarioComponent,
     SolicitudesPreInscripcionComponent,
     LoginComponent,
-    InicioComponent
+    InicioComponent,
+    BodyREComponent,
+    CabeceraREComponent,
+    FooterREComponent,
+    HeaderREComponent,
+    CabeceraPIComponent,
+    HeaderPIComponent,
+    BodyPIComponent,
+    FooterPIComponent,
+    HeaderINComponent,
+    CabeceraINComponent
   ],
   imports: [
     BrowserModule,
